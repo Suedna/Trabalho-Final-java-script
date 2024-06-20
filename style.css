@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+  background-color: #fff;
+  height:100vh;
+  transition:.5s;
+
+}
+
+.logo{
+    line-height:27px;
+}
+
+header{
+    padding: 20px 4%;
+    /* z-index: 1;
+    position: fixed; */
+}
+
+header >.headerConteiner{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header a{
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    transition: .2s;
+    display:inline-block;
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav.menu ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header h1{
+    color: #000000;
+}
+
+header nav.menu a:hover{
+    color:#fff;
+    transform: scale(1.05);
+}
+
+/* topo site */
+section.topSite{
+    padding: 40px 4%;  
+}
+section.topSite{
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 90px;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.imgTop{
+    width: 600px;
+    margin: -150px 0;
+    z-index: -1;
+}
+
+.textSite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-right:100px ; 
+}
+
+.textSite h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #25282B;
+}
+
+.textSite p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #828282;
+}
+
+button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.textSite .button1{
+    background-color: #FDC435;
+    border: 1px solid #FDC435;
+    margin-right: 10px;
+}
+
+.textSite .button2{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+section.sobre{
+    display: flex;
+    padding: 0px 4% 80px 4%; 
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.textSobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-right:100px ; 
+}
+
+.textSobre, h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: #25282B;
+}
+
+.textSobre p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #828282;
+}
+
+.textSobre .buttonSobre{
+    background-color: #FDC435;
+    border: 1px solid #FDC435;
+    margin-right: 10px;
+}
+
+section.projetos{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4%;
+    padding-top:150px ;  
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.projetos .titulo h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    border-bottom: 3px solid #FDC435;
+    color: #25282B;
+}
+
+.contato{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #25282B;
+}
+
+.textProjeto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-right:50px ; 
+}
+
+.textProjeto h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #25282B;
+}
+
+.textProjeto p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #828282;
+}
+
+.conteiner{
+    width: 800px;
+    border-radius: 20px;
+}
+
+.conteinerMaior{
+    padding: 60px 0;
+}
+
+.projetos img{
+    width: 300px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.btn-top{
+    margin-top: 30px;
+}
+.buttonProjetos{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    
+}
+
+/*formulario*/
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+   width: 100%;
+   background-color: #08080815;
+   border:0;
+   outline: 0;
+   padding: 20px 15px;
+   border-radius: 15px;
+}
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+input[type=submit]{
+    width: 90px;
+    background-color: #FDC435;
+    color: #030000e7;
+    font-weight: 700px;
+    cursor: pointer;
+
+}
+
+.btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    margin-bottom: 20px;
+}
+
+.contato{
+    text-align: center;
+}
+
+footer{
+    padding: 30px 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i{
+    font-size: 27px;
+    padding: 3px;
+    color: #FDC435;
+}
+
+footer i:hover{
+    color: #25282B;
+    transition: .5s;
+}
+
+footer p{
+    color: #828282;
+    font-weight: 500;
+}
+
+.description_section1{
+    font-size: large;
+
+
+}
+
